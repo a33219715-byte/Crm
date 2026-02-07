@@ -13,14 +13,14 @@ export default function About() {
               <span className="font-medium text-primary">intelligent automation</span>
             </h1>
             <p className="text-lg text-text-secondary font-light leading-relaxed max-w-2xl mx-auto">
-              At SaleAI, we believe that salespeople should spend their time building relationships, not answering repetitive FAQs.
+              At urleads, we believe that salespeople should spend their time building relationships, not answering repetitive FAQs.
               Our mission is to democratize access to advanced AI agents for businesses of all sizes, enabling you to scale your outreach and support without scaling your headcount linearly.
             </p>
           </section>
 
           {/* Capabilities */}
           <section>
-            <h2 className="text-2xl font-medium text-text-primary mb-8 text-center">What SaleAI Can Do</h2>
+            <h2 className="text-2xl font-medium text-text-primary mb-8 text-center">What urleads Can Do</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <CapabilityCard
                 icon="mark_chat_read"
@@ -72,7 +72,7 @@ export default function About() {
 
           {/* Example Questions */}
           <section>
-             <h2 className="text-2xl font-medium text-text-primary mb-8 text-center">Example Questions to Ask SaleAI</h2>
+             <h2 className="text-2xl font-medium text-text-primary mb-8 text-center">Example Questions to Ask urleads</h2>
              <div className="grid gap-4">
                <QuestionCard text="Which leads got assigned to me today?" />
                <QuestionCard text="Update the status of John Doe to 'Qualified'." />

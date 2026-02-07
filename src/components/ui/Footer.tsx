@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
               <div className="size-6 text-primary">
                 <span className="material-symbols-outlined text-2xl">smart_toy</span>
               </div>
-              <h2 className="text-lg font-semibold">SaleAI</h2>
+              <h2 className="text-lg font-semibold">urleads</h2>
             </div>
             <p className="text-text-secondary font-light text-sm mb-6 leading-relaxed">
               The AI engine for modern sales teams. Automate, integrate, and close more deals.
@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
           </div>
         </div>
         <div className="border-t border-border-light pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-text-secondary font-light">© 2023 SaleAI Inc. All rights reserved.</p>
+          <p className="text-sm text-text-secondary font-light">© 2023 urleads Inc. All rights reserved.</p>
           <div className="flex items-center gap-2 text-sm text-text-secondary font-light">
             <span className="w-2 h-2 rounded-full bg-green-400 shadow-[0_0_10px_rgba(74,222,128,0.5)]"></span>
             System Operational

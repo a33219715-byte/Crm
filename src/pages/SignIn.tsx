@@ -31,7 +31,7 @@ export default function SignIn() {
                     <div className="size-8 text-primary bg-white rounded-full flex items-center justify-center shadow-sm">
                         <span className="material-symbols-outlined text-2xl">smart_toy</span>
                     </div>
-                    <h1 className="text-3xl font-bold tracking-tight text-text-primary">SaleAI</h1>
+                    <h1 className="text-3xl font-bold tracking-tight text-text-primary">urleads</h1>
                 </div>
                 <h2 className="text-4xl font-light leading-tight tracking-tight text-text-primary mb-6">
                     Accelerate your pipeline with <span className="font-bold text-primary">intelligent insights</span>.
@@ -58,7 +58,7 @@ export default function SignIn() {
                  <div className="size-6 text-primary">
                     <span className="material-symbols-outlined text-xl">smart_toy</span>
                  </div>
-                 <span className="text-xl font-bold text-text-primary">SaleAI</span>
+                 <span className="text-xl font-bold text-text-primary">urleads</span>
              </div>
 
              <div className="w-full max-w-[400px] space-y-10">

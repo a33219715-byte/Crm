@@ -1,6 +1,6 @@
-# SaleAI Frontend
+# urleads Frontend
 
-Responsive web front end for SaleAI, an AI Sales Assistant and Manager.
+Responsive web front end for urleads, an AI Sales Assistant and Manager.
 
 ## Features
 

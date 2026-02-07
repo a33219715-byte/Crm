@@ -16,7 +16,7 @@ export default function Dashboard() {
             <div className="size-8 text-primary bg-primary-soft rounded-lg p-1.5 flex items-center justify-center">
               <span className="material-symbols-outlined text-xl">smart_toy</span>
             </div>
-            <h1 className="text-lg font-bold text-text-primary">SaleAI <span className="text-text-secondary font-normal text-sm ml-2">Workspace</span></h1>
+            <h1 className="text-lg font-bold text-text-primary">urleads <span className="text-text-secondary font-normal text-sm ml-2">Workspace</span></h1>
         </div>
         <div className="flex items-center gap-4">
              <div className="hidden md:flex items-center gap-2 text-sm text-text-secondary bg-gray-50 px-3 py-1.5 rounded-full border border-border-light">
@@ -107,7 +107,7 @@ export default function Dashboard() {
                              </div>
                              <div>
                                  <p className="font-semibold text-text-primary">Telegram Bot</p>
-                                 <p className="text-xs text-text-secondary">@SaleAI_Bot</p>
+                                 <p className="text-xs text-text-secondary">@urleads_Bot</p>
                              </div>
                          </div>
                          <div className="flex flex-col md:flex-row items-end md:items-center gap-3">

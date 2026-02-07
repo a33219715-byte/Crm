@@ -22,7 +22,7 @@ export const OnboardingBanner: React.FC = () => {
              <div className="p-2 bg-primary/20 rounded-lg text-primary">
                 <span className="material-symbols-outlined text-xl">rocket_launch</span>
              </div>
-             <h2 className="text-lg font-bold text-text-primary">Welcome to SaleAI</h2>
+             <h2 className="text-lg font-bold text-text-primary">Welcome to urleads</h2>
           </div>
           <p className="text-sm text-text-secondary mb-4">Let's get your workspace ready. Complete these steps to start automating:</p>
 

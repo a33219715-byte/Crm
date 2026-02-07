@@ -25,7 +25,7 @@ export default function Landing() {
                       <span className="font-medium text-transparent bg-clip-text bg-gradient-to-r from-primary to-sky-400">Assistant & Manager</span>
                   </h1>
                   <p className="text-text-secondary text-lg md:text-xl font-light leading-relaxed max-w-xl mx-auto md:mx-0">
-                      Seamlessly bridge your CRM, APIs, and social channels. Let SaleAI automate conversations, turning leads into deals effortlessly.
+                      Seamlessly bridge your CRM, APIs, and social channels. Let urleads automate conversations, turning leads into deals effortlessly.
                   </p>
                   <div className="flex flex-wrap gap-4 justify-center md:justify-start pt-2">
                       <Link to="/signin">
@@ -82,7 +82,7 @@ export default function Landing() {
                                   <span className="material-symbols-outlined text-sm">smart_toy</span>
                               </div>
                               <div className="bg-gradient-to-r from-primary to-sky-400 text-white p-3 rounded-2xl rounded-tr-none text-sm w-3/4 shadow-lg shadow-primary/20 font-light">
-                                  Yes! SaleAI connects directly to Salesforce. Would you like to see a quick documentation link or book a demo?
+                                  Yes! urleads connects directly to Salesforce. Would you like to see a quick documentation link or book a demo?
                               </div>
                           </div>
                       </div>
@@ -109,7 +109,7 @@ export default function Landing() {
       <section id="how-it-works" className="py-24 md:py-32 px-6 bg-white relative">
          <div className="max-w-[1200px] mx-auto">
              <div className="text-center mb-20">
-                 <h2 className="text-3xl md:text-4xl font-light text-text-primary mb-6">How SaleAI Works</h2>
+                 <h2 className="text-3xl md:text-4xl font-light text-text-primary mb-6">How urleads Works</h2>
                  <p className="text-text-secondary text-lg font-light max-w-2xl mx-auto">
                      We sit between your data sources and your communication channels, orchestrating the perfect sales conversation every time.
                  </p>
@@ -125,7 +125,7 @@ export default function Landing() {
                       </div>
                       <h3 className="text-xl font-medium mb-3 text-text-primary">1. Connect Data</h3>
                       <p className="text-text-secondary font-light text-sm px-6 leading-relaxed">
-                          Link your CRM (HubSpot, Salesforce) and expose your APIs. SaleAI ingests your product knowledge instantly.
+                          Link your CRM (HubSpot, Salesforce) and expose your APIs. urleads ingests your product knowledge instantly.
                       </p>
                   </div>
 
@@ -174,7 +174,7 @@ export default function Landing() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   <FeatureCard icon="person_add" color="sky" title="Smart Lead Capture" desc="Automatically identify and qualify leads from social interactions based on your specific criteria." />
-                  <FeatureCard icon="webhook" color="purple" title="API First" desc="Connect custom endpoints. If it has an API, SaleAI can read from it and write to it during conversations." />
+                  <FeatureCard icon="webhook" color="purple" title="API First" desc="Connect custom endpoints. If it has an API, urleads can read from it and write to it during conversations." />
                   <FeatureCard icon="forum" color="green" title="Omnichannel Inbox" desc="Manage WhatsApp, Telegram, Messenger, and Email threads from a single unified dashboard." />
                   <FeatureCard icon="schedule" color="orange" title="24/7 Availability" desc="Never miss a lead because of timezone differences. Your AI agent is always awake and selling." />
                   <FeatureCard icon="analytics" color="red" title="Conversion Analytics" desc="Deep insights into conversation quality, drop-off points, and automated conversion rates." />

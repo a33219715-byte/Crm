@@ -36,7 +36,7 @@ def verify():
         # 5. Dashboard
         print("Waiting for Dashboard...")
         page.wait_for_url("**/app")
-        # Wait for "SaleAI Workspace"
+        # Wait for "urleads Workspace"
         page.wait_for_selector("h1", timeout=10000)
         # Wait for cards to appear
         page.wait_for_selector(".grid", timeout=5000)

@@ -13,7 +13,7 @@ export const Header: React.FC = () => {
           <div className="size-8 text-primary bg-primary-soft rounded-full flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors">
             <span className="material-symbols-outlined text-2xl">smart_toy</span>
           </div>
-          <h2 className="text-xl font-semibold tracking-tight">SaleAI</h2>
+          <h2 className="text-xl font-semibold tracking-tight">urleads</h2>
         </Link>
         <nav className="hidden md:flex items-center gap-10">
           <Link to="/" className="text-sm font-normal text-text-secondary hover:text-primary transition-colors">Home</Link>
