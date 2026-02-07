@@ -1,16 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Card, CardContent } from '../ui/Card';
 import { Button } from '../ui/Button';
 
 export const OnboardingBanner: React.FC = () => {
-  const [isVisible, setIsVisible] = useState(true);
-
-  useEffect(() => {
-    const dismissed = localStorage.getItem('saleai_onboarding_dismissed');
-    if (dismissed) {
-      setIsVisible(false);
-    }
-  }, []);
+  const [isVisible, setIsVisible] = useState(() => {
+    return !localStorage.getItem('saleai_onboarding_dismissed');
+  });
 
   const handleDismiss = () => {
     localStorage.setItem('saleai_onboarding_dismissed', 'true');
